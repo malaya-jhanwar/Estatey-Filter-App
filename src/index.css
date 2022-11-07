@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #FCF6F5FF;
+    font-family: Trebuchet MS;
+}
+@media (min-width: 300px) and (max-width:575px) {
+    .btn{
+        margin: 0 2% ;
+    }
+    .card{
+        padding: 0 4% ;
+        margin : 10 10 10 10;
+    }
+}
+@media (min-width: 576px) and (max-width:767px) {
+    .btn{
+        margin: 2% 4% ;
+    }
+    .card{
+        padding: 0 4% ;
+margin : 10 10 10 10;
+    }
+}
+@media (min-width: 768px) and (max-width:900px) {
+    .btn{
+        margin: 2% 5% ;
+    }
+    .card{
+        padding: 0 4% ;
+margin : 10 10 10 10;
+    }
+}
+
+img {
+    float: left;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4%;
+}
+.signUpButton{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+.loginButton{
+    position: absolute;
+    right: 80px;
+    margin-right: 40px;
+}
+.searchBox
+{
+width: 20%;
+position: relative;
+left:75%;
+bottom: 16%;
+margin: 20px;
+top:5%;
+
+}
+.mainHeading{
+    width: 50%;
+    position: absolute;
+    top:8%;
+    margin-top: 15px;
+    margin-left: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+.button-space{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.marg{
+    margin-left: 10px;
+    margin-right: 10px;
+}
